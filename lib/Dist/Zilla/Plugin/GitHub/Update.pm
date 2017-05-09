@@ -55,10 +55,10 @@ in the (optionally GPG-encrypted) C<~/.github> file as follows:
 then, in your F<dist.ini>:
 
     # default config
-    [GitHub::Meta]
+    [GitHub::Update]
 
     # to override the repo name
-    [GitHub::Meta]
+    [GitHub::Update]
     repo = SomeRepo
 
 See L</ATTRIBUTES> for more options.
